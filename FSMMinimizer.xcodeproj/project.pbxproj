@@ -22,7 +22,6 @@
 		C9823A591A9EEAC3009E646C /* libwx_osx_cocoau_stc-3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9823A4C1A9EEAC3009E646C /* libwx_osx_cocoau_stc-3.0.dylib */; };
 		C98264881A9EF56A00510AFB /* clique.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C98264841A9EF56A00510AFB /* clique.cpp */; };
 		C98264891A9EF56A00510AFB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C98264871A9EF56A00510AFB /* main.cpp */; };
-		C982648C1A9EF77900510AFB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C982648B1A9EF77900510AFB /* README.md */; };
 		C98F35841916C10C009424A8 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98F35831916C10C009424A8 /* CoreFoundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -182,7 +181,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C982648C1A9EF77900510AFB /* README.md in Sources */,
 				C98264891A9EF56A00510AFB /* main.cpp in Sources */,
 				C98264881A9EF56A00510AFB /* clique.cpp in Sources */,
 			);
