@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9823A4D1A9EEAC3009E646C /* libwx_baseu_net-3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9823A401A9EEAC3009E646C /* libwx_baseu_net-3.0.dylib */; };
+		C9823A4E1A9EEAC3009E646C /* libwx_baseu_xml-3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9823A411A9EEAC3009E646C /* libwx_baseu_xml-3.0.dylib */; };
+		C9823A4F1A9EEAC3009E646C /* libwx_baseu-3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9823A421A9EEAC3009E646C /* libwx_baseu-3.0.dylib */; };
+		C9823A501A9EEAC3009E646C /* libwx_osx_cocoau_adv-3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9823A431A9EEAC3009E646C /* libwx_osx_cocoau_adv-3.0.dylib */; };
+		C9823A511A9EEAC3009E646C /* libwx_osx_cocoau_aui-3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9823A441A9EEAC3009E646C /* libwx_osx_cocoau_aui-3.0.dylib */; };
+		C9823A521A9EEAC3009E646C /* libwx_osx_cocoau_core-3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9823A451A9EEAC3009E646C /* libwx_osx_cocoau_core-3.0.dylib */; };
+		C9823A531A9EEAC3009E646C /* libwx_osx_cocoau_gl-3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9823A461A9EEAC3009E646C /* libwx_osx_cocoau_gl-3.0.dylib */; };
+		C9823A541A9EEAC3009E646C /* libwx_osx_cocoau_html-3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9823A471A9EEAC3009E646C /* libwx_osx_cocoau_html-3.0.dylib */; };
+		C9823A551A9EEAC3009E646C /* libwx_osx_cocoau_propgrid-3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9823A481A9EEAC3009E646C /* libwx_osx_cocoau_propgrid-3.0.dylib */; };
+		C9823A561A9EEAC3009E646C /* libwx_osx_cocoau_qa-3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9823A491A9EEAC3009E646C /* libwx_osx_cocoau_qa-3.0.dylib */; };
+		C9823A571A9EEAC3009E646C /* libwx_osx_cocoau_ribbon-3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9823A4A1A9EEAC3009E646C /* libwx_osx_cocoau_ribbon-3.0.dylib */; };
+		C9823A581A9EEAC3009E646C /* libwx_osx_cocoau_richtext-3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9823A4B1A9EEAC3009E646C /* libwx_osx_cocoau_richtext-3.0.dylib */; };
+		C9823A591A9EEAC3009E646C /* libwx_osx_cocoau_stc-3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9823A4C1A9EEAC3009E646C /* libwx_osx_cocoau_stc-3.0.dylib */; };
+		C98264881A9EF56A00510AFB /* clique.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C98264841A9EF56A00510AFB /* clique.cpp */; };
+		C98264891A9EF56A00510AFB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C98264871A9EF56A00510AFB /* main.cpp */; };
+		C982648C1A9EF77900510AFB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C982648B1A9EF77900510AFB /* README.md */; };
+		C98F35841916C10C009424A8 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98F35831916C10C009424A8 /* CoreFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C915E37D1915ECBC00AFA939 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C915E37F1915ECBC00AFA939 /* FSMMinimizer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FSMMinimizer; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9823A401A9EEAC3009E646C /* libwx_baseu_net-3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libwx_baseu_net-3.0.dylib"; path = "/usr/local/Cellar/wxmac/3.0.2/lib/libwx_baseu_net-3.0.dylib"; sourceTree = "<absolute>"; };
+		C9823A411A9EEAC3009E646C /* libwx_baseu_xml-3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libwx_baseu_xml-3.0.dylib"; path = "/usr/local/Cellar/wxmac/3.0.2/lib/libwx_baseu_xml-3.0.dylib"; sourceTree = "<absolute>"; };
+		C9823A421A9EEAC3009E646C /* libwx_baseu-3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libwx_baseu-3.0.dylib"; path = "/usr/local/Cellar/wxmac/3.0.2/lib/libwx_baseu-3.0.dylib"; sourceTree = "<absolute>"; };
+		C9823A431A9EEAC3009E646C /* libwx_osx_cocoau_adv-3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libwx_osx_cocoau_adv-3.0.dylib"; path = "/usr/local/Cellar/wxmac/3.0.2/lib/libwx_osx_cocoau_adv-3.0.dylib"; sourceTree = "<absolute>"; };
+		C9823A441A9EEAC3009E646C /* libwx_osx_cocoau_aui-3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libwx_osx_cocoau_aui-3.0.dylib"; path = "/usr/local/Cellar/wxmac/3.0.2/lib/libwx_osx_cocoau_aui-3.0.dylib"; sourceTree = "<absolute>"; };
+		C9823A451A9EEAC3009E646C /* libwx_osx_cocoau_core-3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libwx_osx_cocoau_core-3.0.dylib"; path = "/usr/local/Cellar/wxmac/3.0.2/lib/libwx_osx_cocoau_core-3.0.dylib"; sourceTree = "<absolute>"; };
+		C9823A461A9EEAC3009E646C /* libwx_osx_cocoau_gl-3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libwx_osx_cocoau_gl-3.0.dylib"; path = "/usr/local/Cellar/wxmac/3.0.2/lib/libwx_osx_cocoau_gl-3.0.dylib"; sourceTree = "<absolute>"; };
+		C9823A471A9EEAC3009E646C /* libwx_osx_cocoau_html-3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libwx_osx_cocoau_html-3.0.dylib"; path = "/usr/local/Cellar/wxmac/3.0.2/lib/libwx_osx_cocoau_html-3.0.dylib"; sourceTree = "<absolute>"; };
+		C9823A481A9EEAC3009E646C /* libwx_osx_cocoau_propgrid-3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libwx_osx_cocoau_propgrid-3.0.dylib"; path = "/usr/local/Cellar/wxmac/3.0.2/lib/libwx_osx_cocoau_propgrid-3.0.dylib"; sourceTree = "<absolute>"; };
+		C9823A491A9EEAC3009E646C /* libwx_osx_cocoau_qa-3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libwx_osx_cocoau_qa-3.0.dylib"; path = "/usr/local/Cellar/wxmac/3.0.2/lib/libwx_osx_cocoau_qa-3.0.dylib"; sourceTree = "<absolute>"; };
+		C9823A4A1A9EEAC3009E646C /* libwx_osx_cocoau_ribbon-3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libwx_osx_cocoau_ribbon-3.0.dylib"; path = "/usr/local/Cellar/wxmac/3.0.2/lib/libwx_osx_cocoau_ribbon-3.0.dylib"; sourceTree = "<absolute>"; };
+		C9823A4B1A9EEAC3009E646C /* libwx_osx_cocoau_richtext-3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libwx_osx_cocoau_richtext-3.0.dylib"; path = "/usr/local/Cellar/wxmac/3.0.2/lib/libwx_osx_cocoau_richtext-3.0.dylib"; sourceTree = "<absolute>"; };
+		C9823A4C1A9EEAC3009E646C /* libwx_osx_cocoau_stc-3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libwx_osx_cocoau_stc-3.0.dylib"; path = "/usr/local/Cellar/wxmac/3.0.2/lib/libwx_osx_cocoau_stc-3.0.dylib"; sourceTree = "<absolute>"; };
+		C98264841A9EF56A00510AFB /* clique.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = clique.cpp; path = FSMMinimizer/clique.cpp; sourceTree = "<group>"; };
+		C98264851A9EF56A00510AFB /* FiniteStateMachine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FiniteStateMachine.hpp; path = FSMMinimizer/FiniteStateMachine.hpp; sourceTree = "<group>"; };
+		C98264861A9EF56A00510AFB /* clique.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = clique.h; path = FSMMinimizer/clique.h; sourceTree = "<group>"; };
+		C98264871A9EF56A00510AFB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = FSMMinimizer/main.cpp; sourceTree = "<group>"; };
+		C982648A1A9EF63F00510AFB /* Screen Shot 2015-02-25 at 21.47.28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2015-02-25 at 21.47.28.png"; path = "../../../../Desktop/Screen Shot 2015-02-25 at 21.47.28.png"; sourceTree = "<group>"; };
+		C982648B1A9EF77900510AFB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C98F35831916C10C009424A8 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C915E37C1915ECBC00AFA939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98F35841916C10C009424A8 /* CoreFoundation.framework in Frameworks */,
+				C9823A4D1A9EEAC3009E646C /* libwx_baseu_net-3.0.dylib in Frameworks */,
+				C9823A4E1A9EEAC3009E646C /* libwx_baseu_xml-3.0.dylib in Frameworks */,
+				C9823A4F1A9EEAC3009E646C /* libwx_baseu-3.0.dylib in Frameworks */,
+				C9823A501A9EEAC3009E646C /* libwx_osx_cocoau_adv-3.0.dylib in Frameworks */,
+				C9823A511A9EEAC3009E646C /* libwx_osx_cocoau_aui-3.0.dylib in Frameworks */,
+				C9823A521A9EEAC3009E646C /* libwx_osx_cocoau_core-3.0.dylib in Frameworks */,
+				C9823A531A9EEAC3009E646C /* libwx_osx_cocoau_gl-3.0.dylib in Frameworks */,
+				C9823A541A9EEAC3009E646C /* libwx_osx_cocoau_html-3.0.dylib in Frameworks */,
+				C9823A551A9EEAC3009E646C /* libwx_osx_cocoau_propgrid-3.0.dylib in Frameworks */,
+				C9823A561A9EEAC3009E646C /* libwx_osx_cocoau_qa-3.0.dylib in Frameworks */,
+				C9823A571A9EEAC3009E646C /* libwx_osx_cocoau_ribbon-3.0.dylib in Frameworks */,
+				C9823A581A9EEAC3009E646C /* libwx_osx_cocoau_richtext-3.0.dylib in Frameworks */,
+				C9823A591A9EEAC3009E646C /* libwx_osx_cocoau_stc-3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C915E3761915ECBC00AFA939 = {
+			isa = PBXGroup;
+			children = (
+				C982648B1A9EF77900510AFB /* README.md */,
+				C98264841A9EF56A00510AFB /* clique.cpp */,
+				C98264851A9EF56A00510AFB /* FiniteStateMachine.hpp */,
+				C98264861A9EF56A00510AFB /* clique.h */,
+				C98264871A9EF56A00510AFB /* main.cpp */,
+				C982648A1A9EF63F00510AFB /* Screen Shot 2015-02-25 at 21.47.28.png */,
+				C98F35831916C10C009424A8 /* CoreFoundation.framework */,
+				C9822A611A9EF23A00510AFB /* libs */,
+				C915E3801915ECBC00AFA939 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C915E3801915ECBC00AFA939 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C915E37F1915ECBC00AFA939 /* FSMMinimizer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9822A611A9EF23A00510AFB /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				C9823A401A9EEAC3009E646C /* libwx_baseu_net-3.0.dylib */,
+				C9823A411A9EEAC3009E646C /* libwx_baseu_xml-3.0.dylib */,
+				C9823A421A9EEAC3009E646C /* libwx_baseu-3.0.dylib */,
+				C9823A431A9EEAC3009E646C /* libwx_osx_cocoau_adv-3.0.dylib */,
+				C9823A441A9EEAC3009E646C /* libwx_osx_cocoau_aui-3.0.dylib */,
+				C9823A451A9EEAC3009E646C /* libwx_osx_cocoau_core-3.0.dylib */,
+				C9823A461A9EEAC3009E646C /* libwx_osx_cocoau_gl-3.0.dylib */,
+				C9823A471A9EEAC3009E646C /* libwx_osx_cocoau_html-3.0.dylib */,
+				C9823A481A9EEAC3009E646C /* libwx_osx_cocoau_propgrid-3.0.dylib */,
+				C9823A491A9EEAC3009E646C /* libwx_osx_cocoau_qa-3.0.dylib */,
+				C9823A4A1A9EEAC3009E646C /* libwx_osx_cocoau_ribbon-3.0.dylib */,
+				C9823A4B1A9EEAC3009E646C /* libwx_osx_cocoau_richtext-3.0.dylib */,
+				C9823A4C1A9EEAC3009E646C /* libwx_osx_cocoau_stc-3.0.dylib */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C915E37E1915ECBC00AFA939 /* FSMMinimizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C915E3881915ECBC00AFA939 /* Build configuration list for PBXNativeTarget "FSMMinimizer" */;
+			buildPhases = (
+				C915E37B1915ECBC00AFA939 /* Sources */,
+				C915E37C1915ECBC00AFA939 /* Frameworks */,
+				C915E37D1915ECBC00AFA939 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSMMinimizer;
+			productName = "wx-test1";
+			productReference = C915E37F1915ECBC00AFA939 /* FSMMinimizer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C915E3771915ECBC00AFA939 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = mattwhiteside;
+			};
+			buildConfigurationList = C915E37A1915ECBC00AFA939 /* Build configuration list for PBXProject "FSMMinimizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C915E3761915ECBC00AFA939;
+			productRefGroup = C915E3801915ECBC00AFA939 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C915E37E1915ECBC00AFA939 /* FSMMinimizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C915E37B1915ECBC00AFA939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C982648C1A9EF77900510AFB /* README.md in Sources */,
+				C98264891A9EF56A00510AFB /* main.cpp in Sources */,
+				C98264881A9EF56A00510AFB /* clique.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C915E3861915ECBC00AFA939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C915E3871915ECBC00AFA939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C915E3891915ECBC00AFA939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0/",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/wxmac/3.0.2/lib,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-D_FILE_OFFSET_BITS=64",
+					"-DwxDEBUG_LEVEL=0",
+					"-DWXUSINGDLL",
+					"-D__WXMAC__",
+					"-D__WXOSX__",
+					"-D__WXOSX_COCOA__",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0/";
+			};
+			name = Debug;
+		};
+		C915E38A1915ECBC00AFA939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0/",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/wxmac/3.0.2/lib,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-D_FILE_OFFSET_BITS=64",
+					"-DwxDEBUG_LEVEL=0",
+					"-DWXUSINGDLL",
+					"-D__WXMAC__",
+					"-D__WXOSX__",
+					"-D__WXOSX_COCOA__",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0/";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C915E37A1915ECBC00AFA939 /* Build configuration list for PBXProject "FSMMinimizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C915E3861915ECBC00AFA939 /* Debug */,
+				C915E3871915ECBC00AFA939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C915E3881915ECBC00AFA939 /* Build configuration list for PBXNativeTarget "FSMMinimizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C915E3891915ECBC00AFA939 /* Debug */,
+				C915E38A1915ECBC00AFA939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C915E3771915ECBC00AFA939 /* Project object */;
+}
